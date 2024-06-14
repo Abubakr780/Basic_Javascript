@@ -47,4 +47,24 @@ const myFunction= function(){
     console.log('Hello World')
 }
 console.log(typeof myFunction)
-console.log(myFunction)
+//console.log(myFunction)
+
+//***********************************Stack & Heap Memory ************************************
+let firstName='PPK'
+let lastName=firstName
+
+lastName="Technology"
+//console.log(firstName)
+//console.log(lastName)
+
+let userOne ={
+    email:"abubakr@gmail.com",
+    password:12345
+}
+
+let userTwo = userOne
+
+userTwo.email="usama@gmail.com"
+
+ console.log(userOne.email)
+ console.log(userTwo.email)
